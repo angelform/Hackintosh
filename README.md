@@ -5,23 +5,21 @@
 
 # Hardware
 
-- CPU: Intel(R) CPU Core i7 8700K
-- Mainboard: Gigabyte Z370 D3H
-- RAM: G.SKILL Trident Z RGB 16GB 3000MHz DDR4 (8GBx4) 
+- CPU: Intel(R) CPU Core i7 8700
+- Mainboard: Gigabyte Z370M-DS3H F14c
+- RAM: hz (16GBx2@2666) 
 - SSD:
-    - Samsung SSD 970 EVO 500GB
-    - Samsung SSD 970 EVO Plus 500GB
-    - Seagate Barracuda 2TB 3.5" SATA (ST2000DM008)
-- Wireless: Broadcom BCM943602CS  802.11ac + Bluetooth 4.1
+    - Samsung SSD 850 EVO 500GB
+    - Intel SSD 545s 400GB
+- Wireless: Broadcom BCM943602CS  802.11ac + Bluetooth 4.1 (need to buy)
 - VGA:
   - Intel HD Graphics 630 (Onboard)
-  - SAPPHIRE PULSE RX 580 8G GDDR5
+  - MSI RX 550 2G GDDR5
 - Monitors:
   - LG 27 inches 4K (3840x2160/60Hz)
-  - Dell 24 inches FullHD (1920x1080/60Hz)
-- Power: Corsair RM 750X 80+
-- Mouse: Logitech MX Master 2S (Bluetooth or Unifying receiver)
-- Keyboard: Keychron K2 Wireless Mechanical Keyboard
+- Power: Hipro 650w
+- Mouse: Magic Trackpad 2
+- Keyboard: Magic Keyboard
 
 # Installation
 
@@ -45,15 +43,15 @@ This step extracts the Installer contents, then installs Clover bootloader to th
   13. Copy **EFI** (USB) using the USB's EFI partition as the target volume.​
 
 # BIOS
- BIOS version: [F10](https://www.gigabyte.com/Motherboard/Z370M-D3H-rev-10/support#support-dl-bios)
+ BIOS version: [F14c] (https://www.gigabyte.ru/products/page/mb/z370m_ds3hrev_10#support-dl)
 
 # What works
  - Intel HD Graphics 630 (Support Intel Quick Sync Video)
- - RX 580 AMD GPU
- - Ethernet + Wireless + Bluetooth
+ - RX 550 AMD GPU
+ - Ethernet (+ Wireless + Bluetooth)
  - USB 2.0/3.0 Ports
  - Sleep / Wake up
- - Sounds
+ - Sounds ?
  - Others (updating...)
 # Benchmarks
 ## **Normal (4.7GHz)**
@@ -66,10 +64,6 @@ Catalina (Geekbench 5)|[1198](2932351)|[6233](2932351)|[5450](1211793)|[43108](1
 Catalina (Geekbench 4)|[6231](15629857)|[30069](15629857)|[24481](4863075)|[141787](4863077)
 
   \**Geekbench Browser* [here](https://browser.geekbench.com/v4/cpu/15630067)
-
-## **Overclocking (5GHz)**
-
-  Waiting... for upgrading radiator system :)
 
 # Credits
 - Bootloaders + Kexts:
